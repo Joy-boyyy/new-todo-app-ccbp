@@ -36,7 +36,7 @@ class MyTodo extends  Component
 
         const{myTodoData}=this.state
 
-        const gotId =myTodoData.find((findProp)=>findProp.id === ID)
+        const gotId =myTodoData.findIndex((findProp)=>findProp.id === ID)
 
         myTodoData.splice(gotId,1)
 
