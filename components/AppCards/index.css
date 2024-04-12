@@ -1,0 +1,20 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.liCl{list-style: none;
+padding: 0px 20px;}
+.cardContainer{
+    /* padding: 0px 20px;  */
+    margin-bottom: 20px;}
+
+.yourTxtDel{
+    /* padding: 0px 20px;  */
+    margin-bottom: 30px;}
+
+.mdDel{width: 20px; height: 20px;}
+
+.hrBottomStyling{width: 80%;}
+
+.dateTimeCl{text-align: end; color: rgb(92, 93, 91); opacity: 0.3;}
+.allTxt{color: rgb(92, 93, 91);}
+.delCL{border: none; background-color: transparent; cursor: pointer;}
+.titleCL{font-weight: 300; font-size: 20px;}

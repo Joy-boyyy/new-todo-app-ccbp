@@ -1,0 +1,46 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.mainDiv{width: 100vw; height: 100vh; display: flex;
+     flex-direction: column; justify-content: center; align-items: center;
+
+     position: relative;
+    }
+
+.childBody{width: 50vw; height: 90vh; border:1px solid black;
+    border-radius: 12px;
+    position: relative;
+overflow-y: auto;
+padding: 30px 0px;
+}
+
+
+.btnToAddNotes{display: flex; justify-content: center; align-items: center;
+    border: none;
+border-radius: 360px;
+
+cursor: pointer;
+
+background-color: transparent;
+
+position: fixed;
+top: 83vh;
+left: 68vw;
+}
+.iconCss{width: 50px; height: 50px;}
+
+
+@media (max-width:750px)
+{
+    .btnToAddNotes{
+        left: 65vw;
+    }
+
+}
+
+@media (max-width:530px)
+{
+    .btnToAddNotes{
+        left: 63vw;
+    }
+
+}

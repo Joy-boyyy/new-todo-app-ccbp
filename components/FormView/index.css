@@ -1,0 +1,31 @@
+.mainFormDiv{width: 50vw; height: 90vh; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+position: fixed;
+top: 50px;
+background-color: rgb(189, 197, 195); 
+border-radius: 12px;
+
+}
+
+.formCl{
+    width: 40vw;
+     height: 40vh;
+     /* width: 100%;
+     height: 100%; */
+     
+    display: flex; flex-direction: column; 
+    justify-content: center; align-items: center;}
+
+.inputTxtCl{width: 250px; height: 30px; padding: 10px; border: none; outline: none;}
+.btnToAdd{padding: 5px 10px; cursor: pointer;}
+.araTxt{padding: 10px; width: 250px; border: none; outline: none;}
+
+
+@media (max-width:580px)
+{
+    .inputTxtCl{width: 200px; height: 30px; padding: 10px;}
+    .araTxt{padding: 10px; width: 200px;}
+} 
